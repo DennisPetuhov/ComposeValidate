@@ -1,13 +1,13 @@
-package com.example.composevalidate.ValidateHard
+package com.example.composevalidate.ValidateManual
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.composevalidate.R
-import com.example.composevalidate.ValidateHard.Stuff.InputErrors
-import com.example.composevalidate.ValidateHard.Stuff.InputValidator
-import com.example.composevalidate.ValidateHard.Stuff.InputWrapper
-import com.example.composevalidate.ValidateHard.Stuff.ScreenEvent
+import com.example.composevalidate.Stuff.InputErrors
+import com.example.composevalidate.Stuff.InputValidator
+import com.example.composevalidate.Stuff.InputWrapper
+import com.example.composevalidate.Stuff.ScreenEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
@@ -17,7 +17,7 @@ import javax.inject.Inject
 const val NAME = "name"
 const val CREDIT_CARD_NUMBER = "ccNumber"
 @HiltViewModel
-class InputValidationAutoDebounceViewModel @Inject constructor(
+class InputValidationManualViewModel @Inject constructor(
     private val handle: SavedStateHandle
 ) : ViewModel() {
 

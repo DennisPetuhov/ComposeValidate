@@ -1,4 +1,4 @@
-package com.example.composevalidate.ValidateHard.Stuff
+package com.example.composevalidate.Stuff
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Column

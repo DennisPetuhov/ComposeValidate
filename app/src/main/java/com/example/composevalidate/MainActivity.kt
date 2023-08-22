@@ -16,7 +16,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.composevalidate.ValidateHard.InputValidationManualScreen
+import com.example.composevalidate.ValidateAuto.InputValidationAutoDebounceScreen
+import com.example.composevalidate.ValidateManual.InputValidationManualScreen
 import com.example.composevalidate.ui.theme.ComposeValidateTheme
 
 class MainActivity : ComponentActivity() {
@@ -32,7 +33,8 @@ class MainActivity : ComponentActivity() {
 //                    ValidateCredentials()
 //                    ValidationsComposble()
 //                    ValidateCred()
-                    InputValidationManualScreen()
+//                    InputValidationManualScreen()
+                    InputValidationAutoDebounceScreen()
                 }
             }
         }

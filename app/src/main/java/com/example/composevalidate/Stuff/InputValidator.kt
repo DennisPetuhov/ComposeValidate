@@ -1,4 +1,4 @@
-package com.example.composevalidate.ValidateHard.Stuff
+package com.example.composevalidate.Stuff
 
 import com.example.composevalidate.R
 
